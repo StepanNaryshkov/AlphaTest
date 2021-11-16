@@ -1,9 +1,9 @@
 import tick from './tick';
 import getEmptyMap from "./getEmptyMap";
-const data = getEmptyMap();
 
 describe('tick', () => {
   test('should correctly handle tick', () => {
+    const data = getEmptyMap();
     data[3][5] = 1;
     data[3][4] = 1;
     data[3][3] = 1;
@@ -20,6 +20,7 @@ describe('tick', () => {
   });
 
   test('should be the same result after tick', () => {
+    const data = getEmptyMap();
     data[3][5] = 1;
     data[3][4] = 1;
     data[4][5] = 1;
