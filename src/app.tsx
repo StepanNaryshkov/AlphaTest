@@ -1,5 +1,5 @@
 import React, {useCallback, useState} from 'react';
-import './App.css';
+import './styles.css';
 import CNTS from './const';
 import {Matrix} from "./types";
 
