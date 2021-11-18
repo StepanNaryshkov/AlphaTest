@@ -32,7 +32,7 @@ export default function App() {
     <div className="App">
       <Button text='Start Game' handleClick={handleStartGame}/>
       <Button text='New Game' handleClick={handleNewGame}/>
-      {data.map((row, rowIndex) => (
+      {data.map((row,rowIndex) => (
         <Row key={rowIndex}>
           {row.map((cell, cellIndex) => (
             <Cell cell={cell}  key={`${rowIndex}_${cellIndex}`}/>
