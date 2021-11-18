@@ -35,7 +35,7 @@ export default function App() {
       {data.map((row,rowIndex) => (
         <Row key={rowIndex}>
           {row.map((cell, cellIndex) => (
-            <Cell cell={cell}  key={`${rowIndex}_${cellIndex}`}/>
+            <Cell cell={cell} key={`${rowIndex}_${cellIndex}`}/>
           ))}
         </Row>
       ))}
