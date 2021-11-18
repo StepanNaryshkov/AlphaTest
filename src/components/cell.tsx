@@ -1,4 +1,4 @@
-import React, {FC} from "react";
+import React, {FC} from 'react';
 import CNST from '../const';
 
 interface Props {
@@ -7,9 +7,9 @@ interface Props {
 
 const Cell:FC<Props> = ({cell}) => {
   return (<div
-    className="cell"
+    className='cell'
     style={{
-      backgroundColor: cell === CNST.LIVE_CELL ? "black" : "initial"
+      backgroundColor: cell === CNST.LIVE_CELL ? 'black' : 'initial'
     }}
   />)
 }
